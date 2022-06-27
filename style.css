@@ -71,7 +71,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 4vw;
+  margin-top: 2vw;
 }
 .col3 a{
   color: #bfc0c0;
@@ -96,7 +96,7 @@ body {
 }
 .col2 h5{
   color: #bfc0c0;
-  font-size: 1.5vw;
+  font-size: 1.9vw;
   font-family: 'Raleway', sans-serif;
 }
 .col2 h5 span{
@@ -120,4 +120,16 @@ body {
 }
 .buttons{
   margin-top: 2vw;
+}
+.image img{
+  border-radius: 7vw;
+  height: 30vw;
+
+}
+.image{
+  margin-left: 5vw;
+}
+.story li{
+  color: #bfc0c0;
+  margin-left: 2vw;
 }

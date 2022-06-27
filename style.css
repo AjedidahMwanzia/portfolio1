@@ -1,32 +1,54 @@
 body {
-    font: 300 11px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #444;
     margin: 0;
     background: #1d1d1d;
-    display: block;
+   
   }
-  .nav a{
+  main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2vw;
+  }
+  .logo{
+    margin-left: -5vw;
+ 
+  }
+  .container3 .one{
     text-decoration: none;
     color: #bfc0c0;
     font-size: 1.2vw;
-    float: right;
-    padding: 2vw;
-    
+    padding: 1vw;  
   }
-  .nav{
-    width: 100%;
-    margin-top: -17vw;
+  .container3{
+    color: #bfc0c0;
+    padding-left: 9vw;
+
+  }
+  .logo span{
+    color: #4ccf5e;
+  }
+  .logo h4{
+    color: #bfc0c0;
+    font-size: 1.5vw;
+    margin-top: -0.2vw;
+  }
+  .col2{
+    width: 70%;
+  }
+  .col3{
+    width: 20%;
   }
   .col1 a{
     display: flex;
     flex-direction: column;
     padding: 1vw;
-    width: 2vw;
+    width: 2%;
     margin-left: 1vw;
   
   }
-  .row .col1{
-    margin-top: 17vw;
+  .container .col1{
+    margin-top: 22vw;
+    background-attachment: fixed;
   }
 .vl{
  
@@ -35,4 +57,10 @@ body {
   height: 10vw;
   margin-left: 2vw;
   top: 0;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4vw;
 }

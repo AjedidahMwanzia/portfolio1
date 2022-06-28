@@ -25,14 +25,8 @@ body {
     padding-left: 9vw;
 
   }
-  .logo span{
-    color: #4ccf5e;
-  }
-  .logo h4{
-    color: #bfc0c0;
-    font-size: 1.5vw;
-    margin-top: -0.2vw;
-    font-family: 'Lobster', cursive;
+  .logo img{
+    width: 13%;
   }
   .col2{
     width: 70%;
@@ -97,10 +91,10 @@ body {
 .col2 h5{
   color: #bfc0c0;
   font-size: 1.9vw;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .col2 h5 span{
-  color: #4ccf5e;
+  color: #dd3a24;
 }
 .story p{
   margin-top: -2vw;
@@ -112,11 +106,14 @@ body {
 .buttons a{
   text-decoration: none;
   color: #bfc0c0;
-  border: 0.1vw solid #4ccf5e;
-  padding: 1vw;
+  /* border: 0.1vw solid #dd3a24; */
+  padding: 0.8vw;
   width: 100vw;
+  font-weight: 500;
+  background-color: #dd3a24;
+  
   margin: 1vw;
-  border-radius: 3vw;
+  border-radius: 0.vw;
 }
 .buttons{
   margin-top: 2vw;
@@ -132,4 +129,5 @@ body {
 .story li{
   color: #bfc0c0;
   margin-left: 2vw;
+  font-family: 'Poppins', sans-serif;
 }

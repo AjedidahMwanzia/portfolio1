@@ -1,6 +1,11 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
 body {
     color: #444;
-    margin: 0;
+    width: 100%;
     background: #1d1d1d;
    
   }
@@ -29,7 +34,7 @@ body {
     width: 13%;
   }
   .col2{
-    width: 70%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -76,8 +81,14 @@ body {
   text-decoration: none;
   
 }
+.section2 h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2vw;
+  padding-top: 3vw;
+}
 .col3{
-  margin-right: -17vw;
+  margin-left: 15vw;
   background-attachment: fixed;
 }
 .col3 .vl{
@@ -97,7 +108,6 @@ body {
   color: #c4321e;
 }
 .story p{
-  margin-top: -2vw;
   color: #bfc0c0;
   font-size: 1.2vw;
   line-height: 1.8vw;
@@ -193,13 +203,13 @@ body {
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 1vw;
   width: 0;
   z-index: 1;
-  right: 8vw;
-  /* border: medium solid white;
-  border-width: 10px 0 10px 10px; */
-  /* border-color: transparent transparent transparent grey; */
+  right: 2vw;
+  border: medium solid white;
+  border-width: 1vw 0 1vw 1vw;
+  border-color: transparent transparent transparent grey;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -207,24 +217,27 @@ body {
   content: " ";
   height: 0;
   position: absolute;
-  top: 22px;
+  top: 3vw;
   width: 0;
   z-index: 1;
  
-  /* border: medium solid white;
-  border-width: 10px 10px 10px 0; */
+  border: medium solid white;
+  border-width: 1vw 1vw 1vw 0;
   border-color: transparent grey transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
 
-
+.right::after {
+  left: -0.03vw;
+  margin-top: 2vw;
+}
 
 .content {
-  padding: 10px 30px;
+  padding: 1vw 3vw;
   color: #bfc0c0;
   position: relative;
-  border-radius: 6px;
+  border-radius: 0.6vw;
 }
 .timeline{
   display: flex;

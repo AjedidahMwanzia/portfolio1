@@ -47,7 +47,7 @@ body {
   }
   .container .col1{
     margin-top: 20vw;
-    background-attachment: fixed;
+    background: fixed;
   }
 .vl{
  
@@ -94,7 +94,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .col2 h5 span{
-  color: #dd3a24;
+  color: #c4321e;
 }
 .story p{
   margin-top: -2vw;
@@ -110,7 +110,7 @@ body {
   padding: 0.8vw;
   width: 100vw;
   font-weight: 500;
-  background-color: #dd3a24;
+  background-color: #c4321e;
   
   margin: 1vw;
   border-radius: 0.vw;
@@ -130,4 +130,197 @@ body {
   color: #bfc0c0;
   margin-left: 2vw;
   font-family: 'Poppins', sans-serif;
+}
+#list{
+  margin-bottom: 1vw;
+}
+/* ...................... */
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: grey;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+}
+
+/* Container around content */
+.container1 {
+  padding: 20px 40px;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container1::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 38.7vw;
+  background-color: #dd3a24;
+  
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left {
+  left: 0%;
+  margin-right: 5vw;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 8vw;
+  /* border: medium solid white;
+  border-width: 10px 0 10px 10px; */
+  /* border-color: transparent transparent transparent grey; */
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+ 
+  /* border: medium solid white;
+  border-width: 10px 10px 10px 0; */
+  border-color: transparent grey transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+
+
+
+.content {
+  padding: 10px 30px;
+  color: #bfc0c0;
+  position: relative;
+  border-radius: 6px;
+}
+.timeline{
+  display: flex;
+  flex-direction: row;
+}
+#will{
+  margin-left: -45vw;
+}
+#will2 .content{
+  padding-right: -3vw;
+}
+#experience h1{
+  text-align: center;
+  padding: 3vw;
+  font-weight: 600;
+  margin-top: 3vw;
+}
+/* ..................................................... */
+
+
+#aboutus .story .description {
+  width: 55%;
+  padding-left: 10%;
+}
+#aboutus .story .img img {
+  width: 100%;
+  transition: 0.3s;
+  position: relative;
+  transform: rotate(-10deg);
+  border: 0.1vw solid #494949;
+}
+#aboutus .story .img {
+  position: relative;
+  width: 45%;
+  border: 0.1vw solid #494949;
+  transform: rotate(10deg);
+  backdrop-filter: blur(0.1vw);
+}
+#aboutus{
+  padding: 0 10%;
+}
+
+#aboutus .story {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10% 0;
+}
+
+#aboutus .story .description span {
+  display: flex;
+  align-items: center;
+  color: #bfc0c0;
+  font-size: 2vw;
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+}
+
+#aboutus .story .description span div {
+  width: 0.8vw;
+  height: 0.8vw;
+  border-radius: 50%;
+  background-color: #252B42;
+  margin-right: 2%;
+}
+#aboutus .story .description p {
+  color: #bfc0c0;
+  font-size: 1.1vw;
+  line-height: 1.8vw;
+}
+.description a{
+  text-decoration: none;
+  color: #bfc0c0;
+  padding: 0.8vw;
+  width: 100vw;
+  font-weight: 500;
+  background-color: #c4321e;
+  margin-top: 14vw;
+  border-radius: 0.5vw;
+  margin-left: 3vw;
+}
+.load hr{
+  width: 5vw;
+  background-color: #bfc0c0;
+  margin-bottom: 2vw;
+}
+.load a{
+  text-decoration: none;
+  color: #bfc0c0;
+  font-weight: 700;
+  font-size: 1.5vw;
+  margin-left: 15vw;
+  
+  
+}
+.load{
+  text-align: center;
 }
